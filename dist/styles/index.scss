@@ -1,0 +1,37 @@
+$global-color: #F2F4F1FF;
+
+html, body{
+    background-color: $global-color;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@import "./nav.scss";
+
+.banner{
+    background-image: url('./assets/Plantito.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%
+}
+
+// FOOTER
+footer{
+    .nav-link{
+        color: rgb(0, 0, 0) !important;
+    }
+    div{
+        background-color: whitesmoke;
+    }
+    .fa{
+        color: #69827FFF;
+    }
+    .fa-inverse{
+        color: white;
+    }
+    .fa-stack:hover  .fa { color: white; }
+    .fa-stack:hover  .fa-inverse { color: #69827FFF; }
+    
+}

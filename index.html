@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Plantito</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./dist/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./dist/uikit/css/uikit.min.css" />
+        <link rel="stylesheet" href="./dist/styles/index.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- ICON -->
+        <script src="https://kit.fontawesome.com/e2364a13a8.js"></script>
+
+        <style>
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                }
+            .size-cover{
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                }
+                .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }
+        </style>
+    </head>
+    <body>
+
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> -->
+        
+
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">Plantieto</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>   
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+          </nav>
+        <!-- <div class="banner"></div> -->
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <main class="my-5">
+            <div class="container">
+                <!-- <h4 class="uk-heading-line uk-text-large uk-text-light "><span>LATEST ARTICLES</span></h4> -->
+                <!-- <h3 class="text-center font-italic">LATEST ARTICLES</h3> -->
+                <h4 class="uk-text-large uk-text-light text-center mb-1">LATEST ARTICLES</h4>
+                <hr class="mx-auto mt-0" style="width: 5%; border: 1px solid #727471FF;">
+                <br>
+                <div class="row">
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow" uk-scrollspy="cls: uk-animation-fade; repeat: false">
+                            <div class="uk-inline-clip uk-transition-toggle uk-height-medium" tabindex="0">
+                                <img class="card-image-top" src="./assets/2.png" alt="">
+                                <img class="uk-transition-scale-up uk-position-cover" src="./assets/3.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="p-4">
+                                    <h6 class="uk-heading-line uk-text-center"><span>Heading Line</span></h6>
+                                    <p class="card-text uk-text-small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow" uk-scrollspy="cls: uk-animation-fade; repeat: false">
+                            <div class="uk-inline-clip uk-transition-toggle uk-height-medium" tabindex="0">
+                                <img class="card-image-top" src="./assets/3.png" alt="">
+                                <img class="uk-transition-scale-up uk-position-cover" src="./assets/4.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="p-4">
+                                    <h6 class="uk-heading-line uk-text-center"><span>Heading Line</span></h6>
+                                    <p class="card-text uk-text-small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4 mb-3">
+                        <div class="card shadow" uk-scrollspy="cls: uk-animation-fade; repeat: false">
+                            <div class="uk-inline-clip uk-transition-toggle uk-height-medium" tabindex="0">
+                                <img class="card-image-top" src="./assets/4.png" alt="">
+                                <img class="uk-transition-scale-up uk-position-cover" src="./assets/5.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="p-4">
+                                    <h6 class="uk-heading-line uk-text-center"><span>Heading Line</span></h6>
+                                    <p class="card-text uk-text-small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="container-fluid bg-white position-relative">
+            <div class="row">
+                <div class="col-sm-6 p-0 mb-3">
+                    <div class="embed-responsive embed-responsive-4by3 uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <div class="size-cover embed-responsive-item uk-transition-scale-up uk-transition-opaque" style=" background-image: url('./assets/5.png')">
+                     </div>
+                   </div>
+                    <!-- <div class="uk-cover-container uk-height-large">
+                        <img src="./assets/2.png" alt="" uk-cover>
+                    </div> -->
+                    <!-- <img class="uk-height-medium" src="" alt=""> -->
+                </div>
+                <div class="col-sm-6 p-0 mb-3 position-relative d-flex align-items-center justify-content-center">
+                    <div class="px-5 mx-5">
+                        <h4 class="uk-text-large uk-text-light text-center mb-1">ABOUT</h4>
+                        <hr class="mx-auto mt-0" style="width: 10%; border: 1px solid #727471FF;">
+                        <p class="uk-text-small uk-text-light text-justify">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>         
+                </div>
+            </div>        
+        </div>
+
+        <div class="container-fluid py-5" style="background-color: #69827FFF">
+            <div class="container py-5 d-flex align-items-center justify-content-center">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <h4 class="uk-text-large uk-text-light text-white text-center mb-1">SUBSCRIBE TO OUR NEWSLETTER</h4>
+                    <hr class="mx-auto mt-0" style="width: 15%; border: 1px solid #ffffff;">
+                    <input class="form-control form-control-lg border-0 rounded-0 text-muted uk-text-light" type="text" placeholder="Email Address">
+                    <button class="btn btn-lg btn-outline-light rounded-0 d-block mx-auto mt-3 uk-text-light px-5">SUMBIT</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid py-2">
+                <div class="px-sm-5">
+                <!-- <ul class="nav d-flex container justify-content-center">
+                    <li class="nav-item mr-sm-auto">
+                    <div class="nav-link">
+                        <a class="text-decoration-none fab fa-facebook fa-lg mx-1"></a>
+                        <a class="text-decoration-none fab fa-instagram fa-lg mx-1"></a>
+                        <a class="text-decoration-none fab fa-twitter fa-lg mx-1"></a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link uk-text-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link uk-text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link uk-text-light" href="#">Contact Us</a>
+                    </li>
+                </ul> -->
+                    <div class="row">
+                        <div class="col-sm-6 d-flex justify-content-center justify-content-md-start order-1 order-sm-0">
+                            <div class="nav-link">
+                                <span class="fa-stack fa-sm">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <span class="fa-stack fa-sm">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <span class="fa-stack fa-sm">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <!-- <a class="text-decoration-none fab fa-facebook fa-lg mx-1"></a>
+                                <a class="text-decoration-none fab fa-instagram fa-lg mx-1"></a>
+                                <a class="text-decoration-none fab fa-twitter fa-lg mx-1"></a> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-center justify-content-md-end order-0 order-sm-1">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link uk-text-light" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link uk-text-light" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link uk-text-light" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </footer>
+            
+        <!-- JS -->
+        <script>
+            // UIkit.scrollspy(element, options);
+        </script>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="./dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./dist/uikit/js/uikit.min.js"></script>
+        <script src="./dist/uikit/js/uikit-icons.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              centeredSlides: true,
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+              },
+              loop: true
+            });
+            // var swiper = new Swiper('.swiper-container', {
+            //     direction: 'vertical',
+            //     pagination: {
+            //         el: '.swiper-pagination',
+            //         clickable: true,
+            //     },
+            //     });
+        </script>
+    </body>
+</html>

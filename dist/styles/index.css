@@ -1,0 +1,43 @@
+html, body {
+  background-color: #F2F4F1FF;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.banner {
+  background-image: url("./assets/Plantito.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+footer .nav-link {
+  color: black !important;
+}
+
+footer div {
+  background-color: whitesmoke;
+}
+
+footer .fa {
+  color: #69827FFF;
+}
+
+footer .fa-inverse {
+  color: white;
+}
+
+footer .fa-stack:hover .fa {
+  color: white;
+}
+
+footer .fa-stack:hover .fa-inverse {
+  color: #69827FFF;
+}
+/*# sourceMappingURL=index.css.map */
