@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Plantito</title>
+        <title>Plantito - Plant Create Peace</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
         <!-- CSS -->
         <link rel="stylesheet" href="./dist/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="./dist/uikit/css/uikit.min.css" />
@@ -11,6 +13,9 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <!-- ICON -->
         <script src="https://kit.fontawesome.com/e2364a13a8.js"></script>
+        
+        <!-- FONT AWESOME -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
         <style>
             .centered {
@@ -48,19 +53,25 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-white">
             <div class="container">
-                <a class="navbar-brand" href="#">Plantieto</a>
+                <a class="navbar-brand" href="#"><img src="./assets/logo5.png" width="150" alt="Plantito Logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>   
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active mx-1">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
@@ -70,15 +81,13 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    </li> -->
+                    
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!-- <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> -->
                 </div>
             </div>
           </nav>
@@ -86,17 +95,19 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
-            <div class="swiper-slide" style="background-image:url(./assets/2.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/7.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/8.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/9.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/10.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/11.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/12.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/13.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/14.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/15.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/16.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/17.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/18.png)"></div>
+            <div class="swiper-slide" style="background-image:url(./assets/19.png)"></div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -175,7 +186,18 @@
                 </div>
             </div>        
         </div>
-
+        <!-- <div class="container-fluid bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">1000
+                        <h1 class="jumbo" id="counter">1000</h1>
+                    </div>
+                    <div class="col-sm-3">50</div>
+                    <div class="col-sm-3">90</div>
+                    <div class="col-sm-3">50</div>
+                </div>
+            </div>
+        </div> -->
         <div class="container-fluid py-5" style="background-color: #69827FFF">
             <div class="container py-5 d-flex align-items-center justify-content-center">
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -255,6 +277,27 @@
         <script src="./dist/uikit/js/uikit.min.js"></script>
         <script src="./dist/uikit/js/uikit-icons.min.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+        <script>
+            function countup() {
+            var options = {
+                useEasing: true,
+                useGrouping: true,
+                // separator: "",
+                // decimal: "",
+                // suffix: ""
+            };
+
+            var demo = new CountUp("counter", 0, $("#counter").text(), 0, 4, options);
+            if (!demo.error) {
+                demo.start();
+            } else {
+                console.error(demo.error);
+            }
+            }
+
+            countup();
+        </script>
         <script>
             var swiper = new Swiper('.swiper-container', {
               effect: 'coverflow',
